@@ -41,3 +41,18 @@ innerFunctionRef();  // Output: I am outer
 var variable1;  // undefined
 var variable2 = null;  // null
 ```
+### 5. What is the 'this' keyword in JavaScript?
+
+##### The 'this' keyword in JavaScript refers to the object that is currently executing the code. The value of 'this' can change depending on how a function is called.
+
+```javascript
+var person = {
+  firstName: 'Md. Rumon',
+  lastName: 'Khan',
+  fullName: function() {
+    console.log(this.firstName + ' ' + this.lastName);
+  }
+};
+
+person.fullName();  // Output: Md. Rumon Khan
+```

@@ -56,3 +56,20 @@ var person = {
 
 person.fullName();  // Output: Md. Rumon Khan
 ```
+### 6. What is a callback function in JavaScript?
+
+##### A callback function is a function that is passed as an argument to another function and is called when the parent function has finished executing. Callback functions are often used to handle asynchronous operations in JavaScript.
+
+```javascript
+function fetchData(callback) {
+  // Simulate an asynchronous operation
+  setTimeout(function() {
+    var data = { name: 'Rumon', age: 21 };
+    callback(data);
+  }, 1000);
+}
+
+fetchData(function(data) {
+  console.log(data);  // Output: { name: 'Rumon', age: 21 }
+});
+```

@@ -86,3 +86,13 @@ if (true) {
 console.log(variable1);  // Output: I am var
 console.log(variable2);  // Throws ReferenceError: variable2 is not defined
 ```
+### 8. What is the use of the 'use strict' directive in JavaScript?
+
+##### The 'use strict' directive is used to enforce stricter parsing and error handling in JavaScript. When used, it enables a stricter mode of execution and disallows certain actions that are allowed in non-strict mode.
+
+```javascript
+'use strict';
+
+x = 3.14;  // Throws ReferenceError
+```
+

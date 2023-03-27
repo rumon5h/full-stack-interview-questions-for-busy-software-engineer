@@ -31,6 +31,13 @@ function outerFunction() {
 
 var innerFunctionRef = outerFunction();
 innerFunctionRef();  // Output: I am outer
+```
 
+### 4. What is the difference between null and undefined in JavaScript?
 
+##### In JavaScript, 'null' is a value that represents the intentional absence of any object value, whereas 'undefined' is a value that represents the absence of any value.
 
+```javascript
+var variable1;  // undefined
+var variable2 = null;  // null
+```

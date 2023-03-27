@@ -11,3 +11,26 @@
 ```javascript
 console.log(1 == '1');  // true
 console.log(1 === '1');  // false
+```
+
+### 3. What are closures in JavaScript?
+
+##### Closures are functions that have access to the variables defined in their outer function, even after the outer function has returned. Closures are often used to create private variables in JavaScript.
+
+```javascript
+
+function outerFunction() {
+  var outerVariable = 'I am outer';
+
+  function innerFunction() {
+    console.log(outerVariable);
+  }
+
+  return innerFunction;
+}
+
+var innerFunctionRef = outerFunction();
+innerFunctionRef();  // Output: I am outer
+
+
+

@@ -73,3 +73,16 @@ fetchData(function(data) {
   console.log(data);  // Output: { name: 'Rumon', age: 21 }
 });
 ```
+### 7. What is the difference between let and var in JavaScript?
+
+##### The 'let' keyword was introduced in ES6 and is used to declare variables with block scope. On the other hand, the 'var' keyword is used to declare variables with function scope.
+
+```javascript 
+if (true) {
+  var variable1 = 'I am var';
+  let variable2 = 'I am let';
+}
+
+console.log(variable1);  // Output: I am var
+console.log(variable2);  // Throws ReferenceError: variable2 is not defined
+```

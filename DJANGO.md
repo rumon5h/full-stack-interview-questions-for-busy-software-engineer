@@ -64,7 +64,7 @@ In this example, we define a model named "MyModel" with three fields: "name", "e
 
 ### 9. How do you define a URL pattern in Django?
 
-##### To define a URL pattern in Django, you create a Python module called urls.py within your app directory, and define a list of URL patterns using the urlpatterns variable. Each URL pattern is defined using the path or re_path function, which takes a URL pattern string and a view function as arguments.
+##### To define a URL pattern in Django, you create a Python module called `urls.py` within your app directory, and define a list of URL patterns using the `urlpatterns` variable. Each URL pattern is defined using the `path` or `re_path` function, which takes a URL pattern string and a view function as arguments.
 
 * Here's an example of how to define a URL pattern in Django:
 
@@ -79,5 +79,5 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),
 ]
 
-In this example, we define three URL patterns: one for the home page (''), one for the about page ('about/'), and one for the contact page ('contact/'). Each URL pattern is mapped to a corresponding view function using the name argument. The name argument is used to create a named URL that can be referenced in templates and other parts of the application.
+In this example, we define three URL patterns: one for the home page ('``'), one for the about page ('`about`/'), and one for the contact page ('`contact`/'). Each URL pattern is mapped to a corresponding view function using the `name` argument. The `name` argument is used to create a named URL that can be referenced in templates and other parts of the application.
 ```

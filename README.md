@@ -1,13 +1,19 @@
 # Full Stack Interview Questions For Busy Software Engineer
 
+#### [MERN Stack Interview questions](MERN.md)
 #### [HTML Interview Questions](HTML.md)
 #### [CSS Interview questions](CSS.md)
 #### [JavaScript Interview questions](JavaScript.md)
+#### [TypeScript Interview questions](TYPESCRIPT.md)
 #### [MongoDB Interview questions](MONGODB.md)
 #### [Express.js Interview questions](EXPRESS.md)
 #### [React.js Interview questions](REACT.md)
 #### [Node.js Interview questions](NODE.md)
-#### [MERN Stack Interview questions](MERN.md)
+#### [Next.js Interview questions](NEXT.md)
+#### [SQL Interview questions](SQL.md)
+#### [Python Interview questions](PYTHON.md)
+#### [DJANGO Interview questions](DJANGO.md)
+
 
 ## HTML Interview Questions
 

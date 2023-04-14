@@ -1,6 +1,6 @@
 # Full Stack Interview Questions For Busy Software Engineer
 # HTML
-# [CSS Interview questions](CSS)
+# [CSS Interview questions](CSS.md)
 ## HTML Interview Questions
 
 ### Q1. What is HTML?
